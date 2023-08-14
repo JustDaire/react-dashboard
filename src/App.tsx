@@ -1,11 +1,11 @@
 import * as React from 'react';
 import './style.css';
+import Toolbar from './toolbar'; //Add new import
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <Toolbar />
     </div>
   );
 }
