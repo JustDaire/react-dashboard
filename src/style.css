@@ -1,3 +1,14 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+.sidebar {
+  background-color: red;
+}
+
+.navbar-brand {
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  padding: 0 0.5em;
 }
