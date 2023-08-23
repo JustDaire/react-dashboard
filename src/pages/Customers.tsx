@@ -1,4 +1,5 @@
 import React from 'react';
+import Users from '../data/users';
 
 const Customers = () => {
   return (
@@ -14,5 +15,10 @@ const Customers = () => {
     </>
   );
 };
+
+let admins = require('~/app/admins.json');
+console.log(admins[0].userName);
+
+console.log();
 
 export default Customers;
