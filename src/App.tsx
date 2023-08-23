@@ -1,20 +1,23 @@
 import * as React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './style.css';
-import Toolbar from './parts/Toolbar';
-import Sidebar from './parts/Sidebar';
-import Footer from './parts/Footer';
+import Layout from './pages/Layout';
+import Dashboard from './pages/Dashboard';
+import Customers from './pages/Customers';
+import ReportStocks from './pages/ReportStocks';
+import NoPage from './pages/404';
 
 export default function App() {
   return (
-    <div>
-      <Toolbar />
-      <div className="row m-0">
-        <Sidebar />
-        // TODO: Add main component
-        <div className="main col-md-9 col-lg-10 p-2">
-          <h1>Dashboard </h1>
-        </div>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Dashboard />} />
+          <Route path="customers" element={<Customers />} />
+          <Route path="report-stocks" element={<ReportStocks />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }

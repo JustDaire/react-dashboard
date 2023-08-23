@@ -1,0 +1,326 @@
+{
+  "explains": [],
+  "count": 15,
+  "quotes": [
+    {
+      "exchange": "NMS",
+      "shortname": "Tesla, Inc.",
+      "quoteType": "EQUITY",
+      "symbol": "TSLA",
+      "index": "quotes",
+      "score": 1250276,
+      "typeDisp": "Equity",
+      "longname": "Tesla, Inc.",
+      "exchDisp": "NASDAQ",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "industryDisp": "Auto Manufacturers",
+      "dispSecIndFlag": true,
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NEO",
+      "shortname": "TESLA, INC. CDR (CAD HEDGED)",
+      "quoteType": "EQUITY",
+      "symbol": "TSLA.NE",
+      "index": "quotes",
+      "score": 21582,
+      "typeDisp": "Equity",
+      "longname": "Tesla, Inc.",
+      "exchDisp": "NEO",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "industryDisp": "Auto Manufacturers",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "LSE",
+      "shortname": "LEVERAGE SHARES PUBLIC LIMITED ",
+      "quoteType": "EQUITY",
+      "symbol": "TSL3.L",
+      "index": "quotes",
+      "score": 20586,
+      "typeDisp": "Equity",
+      "longname": "Leverage Shares 3x Tesla ETP Scs",
+      "exchDisp": "London",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "NEO",
+      "shortname": "TESLA (TSLA) YIELD SHARES PURPO",
+      "quoteType": "ETF",
+      "symbol": "YTSL.NE",
+      "index": "quotes",
+      "score": 20493,
+      "typeDisp": "ETF",
+      "longname": "Tesla (TSLA) Yield Shares Purpose ETF",
+      "exchDisp": "NEO",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "GER",
+      "shortname": "TESLA INC",
+      "quoteType": "EQUITY",
+      "symbol": "TL0.DE",
+      "index": "quotes",
+      "score": 20490,
+      "typeDisp": "Equity",
+      "longname": "Tesla, Inc.",
+      "exchDisp": "XETRA",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "industryDisp": "Auto Manufacturers",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "VIE",
+      "shortname": "TESLA INC",
+      "quoteType": "EQUITY",
+      "symbol": "TSLA.VI",
+      "index": "quotes",
+      "score": 20277,
+      "typeDisp": "Equity",
+      "longname": "Tesla, Inc.",
+      "exchDisp": "Vienna",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "industryDisp": "Auto Manufacturers",
+      "isYahooFinance": true
+    },
+    {
+      "exchange": "FRA",
+      "shortname": "TESLA INC",
+      "quoteType": "EQUITY",
+      "symbol": "TL0.F",
+      "index": "quotes",
+      "score": 20177,
+      "typeDisp": "Equity",
+      "longname": "Tesla, Inc.",
+      "exchDisp": "Frankfurt",
+      "sector": "Consumer Cyclical",
+      "sectorDisp": "Consumer Cyclical",
+      "industry": "Auto Manufacturers",
+      "industryDisp": "Auto Manufacturers",
+      "isYahooFinance": true
+    }
+  ],
+  "news": [
+    {
+      "uuid": "a5739f25-2387-3275-a3f4-50df95073936",
+      "title": "Tesla Rebound Hits Resistance As Another Executive Steps Down",
+      "publisher": "Investor's Business Daily",
+      "link": "https://finance.yahoo.com/m/a5739f25-2387-3275-a3f4-50df95073936/tesla-rebound-hits-resistance.html",
+      "providerPublishTime": 1692734681,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/3nRm9DQCMm3sPr2Y954gYQ--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/1cd136b0155094cbff6ef7e10ec01076",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/edfbotpZRbxkReP8Wq2DOQ--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/1cd136b0155094cbff6ef7e10ec01076",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA"]
+    },
+    {
+      "uuid": "0dd927e5-0389-32af-954a-cdfc44a27c87",
+      "title": "Tesla to lease huge warehouses in Kyle",
+      "publisher": "American City Business Journals",
+      "link": "https://finance.yahoo.com/m/0dd927e5-0389-32af-954a-cdfc44a27c87/tesla-to-lease-huge.html",
+      "providerPublishTime": 1692729191,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/oFo6c77Xz2L.bucYqdUnSg--~B/aD05NjA7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bizjournals.com/edb7beea81be9e1a858471dea155568c",
+            "width": 1440,
+            "height": 960,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/zi_6fIcJfM_Po_RtmRGD5w--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bizjournals.com/edb7beea81be9e1a858471dea155568c",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA"]
+    },
+    {
+      "uuid": "e0e3a2d3-1534-362d-b22d-5393e0bc5be6",
+      "title": "Tesla is testing a new feature that may be extremely helpful (especially in these areas)",
+      "publisher": "TheStreet.com",
+      "link": "https://finance.yahoo.com/m/e0e3a2d3-1534-362d-b22d-5393e0bc5be6/tesla-is-testing-a-new.html",
+      "providerPublishTime": 1692734280,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/owL0bvNRyHkANGO3Eg.bWw--~B/aD03Njg7dz0xMTUyO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet.com/dc51358f3cd8f0a19b12dfd1c219fde5",
+            "width": 1152,
+            "height": 768,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/YprOxWU2nnaPpsEgqiJFhA--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/thestreet.com/dc51358f3cd8f0a19b12dfd1c219fde5",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA"]
+    },
+    {
+      "uuid": "5bdadf7b-d167-365d-a5fb-0ad5ecb14778",
+      "title": "Tesla Stock Has Been Dead Money for Some Investors",
+      "publisher": "Barrons.com",
+      "link": "https://finance.yahoo.com/m/5bdadf7b-d167-365d-a5fb-0ad5ecb14778/tesla-stock-has-been-dead.html",
+      "providerPublishTime": 1692711660,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/XRolT_xkNlIre.XQ_M7CbQ--~B/aD02NDA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/58520b2cd9ecf0b71cb45bb760345291",
+            "width": 1280,
+            "height": 640,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/vrqhCeJq30218omt.iuA8g--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Barrons.com/58520b2cd9ecf0b71cb45bb760345291",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA"]
+    },
+    {
+      "uuid": "34a87417-83eb-3b24-b04e-6ece01b6751a",
+      "title": "Tesla Stock Surges on Cybertruck Launch, Model 3 Refresh",
+      "publisher": "Zacks",
+      "link": "https://finance.yahoo.com/news/tesla-stock-surges-cybertruck-launch-142400767.html",
+      "providerPublishTime": 1692714240,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/1p68DIInRdPG.Kc8AoSv3g--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/4989bf6ceb55f0ee1b44d70b00c6549a",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/oyRu0U2FFOq7K1RcPUJkeg--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/zacks.com/4989bf6ceb55f0ee1b44d70b00c6549a",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA"]
+    },
+    {
+      "uuid": "a2171671-1f48-3b2b-9825-d45fc8bb1fe9",
+      "title": "Buying These 2 Stocks Could Be the Smartest Investing Move You Ever Make",
+      "publisher": "Motley Fool",
+      "link": "https://finance.yahoo.com/m/a2171671-1f48-3b2b-9825-d45fc8bb1fe9/buying-these-2-stocks-could.html",
+      "providerPublishTime": 1692781380,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/uuDovrNpFvOfmmtPJNh0KQ--~B/aD0xNDE0O3c9MjEyMTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/motleyfool.com/bfed60e49035c1c840599c77abcff41c",
+            "width": 2121,
+            "height": 1414,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/uqL.Pzvpd9OtoXGhCA4Big--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/motleyfool.com/bfed60e49035c1c840599c77abcff41c",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA", "AMZN"]
+    },
+    {
+      "uuid": "ed516ca0-8406-39c7-a899-d5200b3ec897",
+      "title": "Grieving widow sues Tesla over deadly Model 3 crash and explosion",
+      "publisher": "TechCrunch",
+      "link": "https://finance.yahoo.com/m/ed516ca0-8406-39c7-a899-d5200b3ec897/grieving-widow-sues-tesla.html",
+      "providerPublishTime": 1692719671,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/.Tprxc6LHBKlqGMBLqhN.Q--~B/aD0xNjMzO3c9MjU5MTthcHBpZD15dGFjaHlvbg--/https://media.zenfs.com/en/techcrunch_350/8868620cb3c23d47a29c2d2011291ea0",
+            "width": 2591,
+            "height": 1633,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/RjlE4hGIEL7hJSvZ6zNuIA--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/techcrunch_350/8868620cb3c23d47a29c2d2011291ea0",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "836cd285-e00a-3ac7-9048-860d29029c91",
+      "title": "Tesla facility in Baltimore County to lay off 55 workers",
+      "publisher": "American City Business Journals",
+      "link": "https://finance.yahoo.com/m/836cd285-e00a-3ac7-9048-860d29029c91/tesla-facility-in-baltimore.html",
+      "providerPublishTime": 1692644224,
+      "type": "STORY",
+      "thumbnail": {
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/TD0TurwcHs8M6aydUyCOlA--~B/aD05NjE7dz0xNDQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bizjournals.com/c53b15b826dbfdbd2afa05eb0eb8a571",
+            "width": 1440,
+            "height": 961,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/ZGsL6Ibvrz4N1QvMe9Mmmg--~B/Zmk9ZmlsbDtoPTE0MDtweW9mZj0wO3c9MTQwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/bizjournals.com/c53b15b826dbfdbd2afa05eb0eb8a571",
+            "width": 140,
+            "height": 140,
+            "tag": "140x140"
+          }
+        ]
+      },
+      "relatedTickers": ["TSLA"]
+    }
+  ],
+  "nav": [],
+  "lists": [],
+  "researchReports": [],
+  "screenerFieldResults": [],
+  "totalTime": 60,
+  "timeTakenForQuotes": 441,
+  "timeTakenForNews": 600,
+  "timeTakenForAlgowatchlist": 400,
+  "timeTakenForPredefinedScreener": 400,
+  "timeTakenForCrunchbase": 0,
+  "timeTakenForNav": 400,
+  "timeTakenForResearchReports": 0,
+  "timeTakenForScreenerField": 0,
+  "timeTakenForCulturalAssets": 0
+}
