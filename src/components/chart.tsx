@@ -1,28 +1,51 @@
 import * as React from 'react';
-import { VictoryChart, VictoryLine, VictoryTheme } from 'victory';
+import {
+  VictoryChart,
+  VictoryZoomContainer,
+  VictoryLine,
+  VictoryTheme,
+} from 'victory';
+import UsaData from '../data/usa-data.json';
 
-const chartdata = [
-  { x: 1, y: 2 },
-  { x: 2, y: 3 },
-  { x: 3, y: 5 },
-  { x: 4, y: 4 },
-  { x: 5, y: 7 },
-];
+var numArray = UsaData.data.map((a) => a.Population);
+numArray.sort((a, b) => {
+  return a - b;
+});
 
-const Chart = () => {
-  return (
-    <>
-      <VictoryChart theme={VictoryTheme.material}>
-        <VictoryLine
-          style={{
-            data: { stroke: '#c43a31' },
-            parent: { border: '1px solid #ccc' },
-          }}
-          data={chartdata}
-        />
-      </VictoryChart>
-    </>
-  );
-};
+const low = [];
+const high = [];
+
+console.log(numArray);
+
+function Chart({ type }) {
+  if (UsaData) {
+    const newArray = UsaData.data
+      .map(({ Year, Population }) => ({
+        ['x']: Year,
+        ['y']: Population,
+      }))
+      .reverse();
+    console.log('newArray', newArray);
+    return (
+      <>
+        <VictoryChart
+          height={200}
+          width={300}
+          theme={VictoryTheme.material}
+          containerComponent={<VictoryZoomContainer />}
+        >
+          <VictoryLine
+            style={{
+              data: { stroke: '#c43a31' },
+              parent: { border: '1px solid #ccc' },
+              padding: { top: 20, bottom: 50, left: 60, right: 60 },
+            }}
+            data={newArray}
+          />
+        </VictoryChart>
+      </>
+    );
+  }
+}
 
 export default Chart;

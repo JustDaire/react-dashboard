@@ -5,7 +5,11 @@ const Dashboard = () => {
   return (
     <>
       <h1>Dashboard</h1>
-      <Chart />
+      <div className="row">
+        <div className="col-12">
+          <Chart type={'Line'} />
+        </div>
+      </div>
     </>
   );
 };
