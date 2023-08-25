@@ -7,6 +7,17 @@ import Customers from './pages/Customers';
 import ReportStocks from './pages/ReportStocks';
 import NoPage from './pages/404';
 
+import ReactDOM = require('react-dom');
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import {
+  faCheckSquare,
+  faCoffee,
+  faHouse,
+} from '@fortawesome/free-solid-svg-icons';
+
+library.add(fab, faCheckSquare, faCoffee, faHouse);
+
 export default function App() {
   return (
     <BrowserRouter>

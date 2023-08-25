@@ -1,66 +1,66 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faCoffee,
-  faCirclePlus,
-  faFile,
-} from '@fortawesome/free-solid-svg-icons';
 
 function Sidebar() {
   return (
-    <div className="sidebar border border-right col-md-3 col-lg-2 p-0 ps-0 bg-body-tertiary">
+    <div className="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
       <div
         className="offcanvas-md offcanvas-end bg-body-tertiary"
-        tabIndex={-1}
         id="sidebarMenu"
         aria-labelledby="sidebarMenuLabel"
       >
+        <div className="offcanvas-header">
+          <h5 className="offcanvas-title" id="sidebarMenuLabel">
+            Company name
+          </h5>
+          <button
+            type="button"
+            className="btn-close"
+            data-bs-dismiss="offcanvas"
+            data-bs-target="#sidebarMenu"
+            aria-label="Close"
+          ></button>
+        </div>
         <div className="offcanvas-body d-md-flex flex-column p-0 pt-lg-3 overflow-y-auto">
           <ul className="nav flex-column">
             <li className="nav-item">
-              <Link
+              <a
                 className="nav-link d-flex align-items-center gap-2 active"
-                to="/"
+                aria-current="page"
+                href="#"
               >
-                <FontAwesomeIcon icon={faCoffee} fixedWidth />
+                <FontAwesomeIcon icon="house" />
                 Dashboard
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faFile} fixedWidth />
+                <FontAwesomeIcon icon="coffee" />
                 Orders
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Products
               </a>
             </li>
             <li className="nav-item">
-              <Link
-                className="nav-link d-flex align-items-center gap-2 active"
-                to="/customers"
-              >
-                <FontAwesomeIcon icon={faCoffee} fixedWidth />
+              <a className="nav-link d-flex align-items-center gap-2" href="#">
+                <FontAwesomeIcon icon="coffee" />
                 Customers
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link d-flex align-items-center gap-2 active"
-                to="/report-stocks"
-              >
-                <FontAwesomeIcon icon={faCoffee} fixedWidth />
-                Reports
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
-                <FontAwesomeIcon icon={['far', 'coffee']} />
+                <FontAwesomeIcon icon="coffee" />
+                Reports
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link d-flex align-items-center gap-2" href="#">
+                <FontAwesomeIcon icon="coffee" />
                 Integrations
               </a>
             </li>
@@ -73,48 +73,48 @@ function Sidebar() {
               href="#"
               aria-label="Add a new report"
             >
-              <FontAwesomeIcon icon={faCirclePlus} />
+              <FontAwesomeIcon icon="coffee" />
             </a>
           </h6>
           <ul className="nav flex-column mb-auto">
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Current month
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Last quarter
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Social engagement
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Year-end sale
               </a>
             </li>
           </ul>
 
-          <hr className="my-3" />
+          <hr className="my-3"></hr>
 
           <ul className="nav flex-column mb-auto">
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Settings
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link d-flex align-items-center gap-2" href="#">
-                <FontAwesomeIcon icon={faCoffee} />
+                <FontAwesomeIcon icon="coffee" />
                 Sign out
               </a>
             </li>
