@@ -11,18 +11,58 @@ import ReactDOM = require('react-dom');
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
+  faCartShopping,
+  faChartColumn,
+  faChartSimple,
   faCheckSquare,
   faCoffee,
   faHouse,
+  faTag,
+  faUser,
 } from '@fortawesome/free-solid-svg-icons';
 
-library.add(fab, faCheckSquare, faCoffee, faHouse);
+library.add(
+  fab,
+  faCartShopping,
+  faChartColumn,
+  faChartSimple,
+  faCheckSquare,
+  faCoffee,
+  faHouse,
+  faTag,
+  faUser
+);
+
+let routes = [
+  {
+    element: 'Customers',
+    path: 'customers',
+  },
+  {
+    element: 'Dashboard',
+    path: '/',
+  },
+  {
+    element: 'ReportStocks',
+    path: 'report-stocks',
+  },
+];
+
+let items = [];
+for (let i = 0; i <= routes.length; i++) {
+  if (routes[i]) {
+    // console.log(routes[i]);
+    const Element = routes[i].element;
+    // items.push(<Route path={routes[i].path} element={<Element />} />);
+  }
+}
 
 export default function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
+          {/* {items} */}
           <Route index element={<Dashboard />} />
           <Route path="customers" element={<Customers />} />
           <Route path="report-stocks" element={<ReportStocks />} />
